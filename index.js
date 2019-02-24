@@ -1,46 +1,49 @@
 
 function calculator(){
 
-    switch(){
+    //var c;
+
+    switch(operation){
+        
 
         case 1 :
         
         var a = document.getElementById('a').value;
         var b = document.getElementById('b').value;
 
-        Var c = parseInt(a)+parseInt(b);
+        Var c = parseInt(a) + parseInt(b);
         console.log(c);
         break;
 
-        Case 2: 
+        case 2 : 
         var a = document.getElementById('a').value;
         var b = document.getElementById('b').value;
 
-        Var c = parseInt(a)-parseInt(b);
+        Var c = parseInt(a) - parseInt(b);
         console.log(c);
         break;
 
-        Case 3: 
+        case 3 : 
         var a = document.getElementById('a').value;
         var b = document.getElementById('b').value;
 
-        Var c = parseInt(a)*parseInt(b);
+        Var c = parseInt(a) * parseInt(b);
         console.log(c);
         break;
 
-        Case 4:
+        case 4 :
         var a = document.getElementById('a').value;
         var b = document.getElementById('b').value;
 
-        Var c = parseInt(a)/parseInt(b);
+        Var c = parseInt(a) / parseInt(b);
         console.log(c);
         break;
 
-        case 5:
-        var a = document.getElementById(a).value;
-        var b = document.getElementById(b).value;
+        case 5 :
+        var a = document.getElementById('a').value;
+        var b = document.getElementById('b').value;
 
-        var c = parseInt(a)%parseInt(b);
+        var c = parseInt(a) % parseInt(b);
         console.log(c);
         break;
 
