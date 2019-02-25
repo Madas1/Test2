@@ -1,12 +1,12 @@
 
-function calculator(){
+function calculator(operation){
 
-    //var c;
+    var c;
 
     switch(operation){
         
 
-        case 1 :
+        case 1:
         
         var a = document.getElementById('a').value;
         var b = document.getElementById('b').value;
@@ -15,7 +15,7 @@ function calculator(){
         console.log(c);
         break;
 
-        case 2 : 
+        case 2: 
         var a = document.getElementById('a').value;
         var b = document.getElementById('b').value;
 
@@ -23,7 +23,7 @@ function calculator(){
         console.log(c);
         break;
 
-        case 3 : 
+        case 3: 
         var a = document.getElementById('a').value;
         var b = document.getElementById('b').value;
 
@@ -31,7 +31,7 @@ function calculator(){
         console.log(c);
         break;
 
-        case 4 :
+        case 4:
         var a = document.getElementById('a').value;
         var b = document.getElementById('b').value;
 
