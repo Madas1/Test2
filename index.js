@@ -1,49 +1,40 @@
 
-function calculator(operation){
+function calc(operation){
 
+    var a = document.getElementById('a').value;
+    var b = document.getElementById('b').value;
     var c;
 
     switch(operation){
+      
+        case 'add':
+        
+        c = parseInt(a) + parseInt(b);
+        console.log(c);
+        break;
+
+        case 'sub': 
+       
+        c = parseInt(a) - parseInt(b);
+        console.log(c);
+        break;
+
+        case 'mul': 
+       
+        c = parseInt(a) * parseInt(b);
+        console.log(c);
+        break;
+
+        case 'div':
         
 
-        case 1:
-        
-        var a = document.getElementById('a').value;
-        var b = document.getElementById('b').value;
-
-        Var c = parseInt(a) + parseInt(b);
+        c = parseInt(a) / parseInt(b);
         console.log(c);
         break;
 
-        case 2: 
-        var a = document.getElementById('a').value;
-        var b = document.getElementById('b').value;
-
-        Var c = parseInt(a) - parseInt(b);
-        console.log(c);
-        break;
-
-        case 3: 
-        var a = document.getElementById('a').value;
-        var b = document.getElementById('b').value;
-
-        Var c = parseInt(a) * parseInt(b);
-        console.log(c);
-        break;
-
-        case 4:
-        var a = document.getElementById('a').value;
-        var b = document.getElementById('b').value;
-
-        Var c = parseInt(a) / parseInt(b);
-        console.log(c);
-        break;
-
-        case 5 :
-        var a = document.getElementById('a').value;
-        var b = document.getElementById('b').value;
-
-        var c = parseInt(a) % parseInt(b);
+        case 'mod':
+       
+        c = parseInt(a) % parseInt(b);
         console.log(c);
         break;
 
